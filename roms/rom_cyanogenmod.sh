@@ -132,6 +132,7 @@ cyanogenmod_prebuild() {
   #fi
 
   python3 ${WORKSPACE}/hudson/gerrit_changes.py \
+    'http://review.cyanogenmod.org/#/c/50691/' \
     'http://review.cyanogenmod.org/#/c/51229/' \
     'http://review.cyanogenmod.org/#/c/51228/' \
     'http://review.cyanogenmod.org/#/c/48359/' \
